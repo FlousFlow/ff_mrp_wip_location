@@ -1,0 +1,48 @@
+# Translation template for Flous Flow - Manufacturing WIP Location.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo 20.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. module: ff_mrp_wip_location
+#: model:ir.model.fields,field_description:ff_mrp_wip_location.field_product_template__ff_under_processing
+msgid "Under Processing"
+msgstr ""
+
+#. module: ff_mrp_wip_location
+#: model:ir.model.fields,field_description:ff_mrp_wip_location.field_res_company__ff_wip_location_id
+#: model:ir.model.fields,field_description:ff_mrp_wip_location.field_res_config_settings__ff_wip_location_id
+#: model_terms:ir.ui.view,arch_db:ff_mrp_wip_location.res_config_settings_view_form_ff_mrp_wip_location
+msgid "Work in Progress Location"
+msgstr ""
+
+#. module: ff_mrp_wip_location
+#: model_terms:ir.ui.view,arch_db:ff_mrp_wip_location.res_config_settings_view_form_ff_mrp_wip_location
+msgid "Main finished products marked Under Processing are stored here."
+msgstr ""
+
+#. module: ff_mrp_wip_location
+#: model_terms:ir.ui.view,arch_db:ff_mrp_wip_location.res_config_settings_view_form_ff_mrp_wip_location
+msgid "This must be an active internal location belonging to the current company or shared between companies."
+msgstr ""
+
+#. module: ff_mrp_wip_location
+#: model:ir.model.fields,field_description:ff_mrp_wip_location.field_product_template__ff_under_processing
+msgid "When enabled, the main finished product of a manufacturing order is stored in the company Work in Progress location."
+msgstr ""
+
+#. module: ff_mrp_wip_location
+#: code:addons/ff_mrp_wip_location/models/mrp_production.py:0
+msgid "Please configure the Work in Progress Location in Manufacturing Settings before confirming this manufacturing order."
+msgstr ""
+
+#. module: ff_mrp_wip_location
+#: code:addons/ff_mrp_wip_location/models/res_company.py:0
+msgid "The Work in Progress Location must be an active internal location."
+msgstr ""
+
+#. module: ff_mrp_wip_location
+#: code:addons/ff_mrp_wip_location/models/res_company.py:0
+msgid "The Work in Progress Location must belong to the current company or be shared."
+msgstr ""

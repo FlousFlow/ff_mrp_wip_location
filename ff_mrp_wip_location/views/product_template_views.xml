@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="product_template_form_view_ff_mrp_wip_location" model="ir.ui.view">
+        <field name="name">product.template.form.ff.mrp.wip.location</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_form_view"/>
+        <field name="arch" type="xml">
+            <span name="purchase_option" position="after">
+                <span name="under_processing_option" class="d-inline-flex">
+                    <field name="ff_under_processing" widget="boolean_checkbox" class="w-auto"/>
+                    <label for="ff_under_processing"/>
+                </span>
+            </span>
+        </field>
+    </record>
+</odoo>

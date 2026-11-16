@@ -1,0 +1,45 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * ff_mrp_wip_location
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo 20.0\n"
+"Language: ar\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. module: ff_mrp_wip_location
+msgid "Under Processing"
+msgstr "تحت التشغيل"
+
+#. module: ff_mrp_wip_location
+#: model_terms:ir.ui.view,arch_db:ff_mrp_wip_location.res_config_settings_view_form_ff_mrp_wip_location
+msgid "Work in Progress Location"
+msgstr "موقع تحت التشغيل"
+
+#. module: ff_mrp_wip_location
+#: model_terms:ir.ui.view,arch_db:ff_mrp_wip_location.res_config_settings_view_form_ff_mrp_wip_location
+msgid "Main finished products marked Under Processing are stored here."
+msgstr "يتم تخزين المنتجات النهائية الرئيسية المحددة تحت التشغيل هنا."
+
+#. module: ff_mrp_wip_location
+#: model_terms:ir.ui.view,arch_db:ff_mrp_wip_location.res_config_settings_view_form_ff_mrp_wip_location
+msgid "This must be an active internal location belonging to the current company or shared between companies."
+msgstr "يجب أن يكون موقعًا داخليًا نشطًا تابعًا للشركة الحالية أو مشتركًا بين الشركات."
+
+#. module: ff_mrp_wip_location
+msgid "When enabled, the main finished product of a manufacturing order is stored in the company Work in Progress location."
+msgstr "منتج تحت التشغيل"
+
+#. module: ff_mrp_wip_location
+msgid "Please configure the Work in Progress Location in Manufacturing Settings before confirming this manufacturing order."
+msgstr "يرجى تحديد موقع مخزون تحت التشغيل من إعدادات التصنيع قبل تأكيد أمر التصنيع."
+
+#. module: ff_mrp_wip_location
+msgid "The Work in Progress Location must be an active internal location."
+msgstr "يجب أن يكون موقع تحت التشغيل موقعًا داخليًا نشطًا."
+
+#. module: ff_mrp_wip_location
+msgid "The Work in Progress Location must belong to the current company or be shared."
+msgstr "يجب أن يتبع موقع تحت التشغيل للشركة الحالية أو يكون موقعًا مشتركًا."

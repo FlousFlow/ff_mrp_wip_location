@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Flous Flow - Manufacturing WIP Location</title>
+</head>
+<body>
+    <h1>Manufacturing WIP Location</h1>
+    <p>Route selected manufactured products directly to a company-level Work in Progress location.</p>
+    <h2>How it works</h2>
+    <ol>
+        <li>Configure an active internal WIP location in Manufacturing Settings.</li>
+        <li>Enable <strong>Under Processing</strong> on the products that need WIP routing.</li>
+        <li>Confirm and complete the manufacturing order. The main finished product is stored in WIP.</li>
+    </ol>
+    <h2>Design principles</h2>
+    <ul>
+        <li>Opt-in per product; normal products keep standard Odoo destinations.</li>
+        <li>By-products keep native Odoo destinations.</li>
+        <li>No accounting or valuation entries are changed by this module.</li>
+        <li>Company-specific and shared internal locations are supported.</li>
+    </ul>
+    <p><strong>Compatibility:</strong> Odoo 20 Community, LGPL-3. Requires Manufacturing and Inventory.</p>
+</body>
+</html>
